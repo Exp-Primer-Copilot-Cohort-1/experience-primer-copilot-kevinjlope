@@ -1,3 +1,6 @@
 function skillMembers(){
-    console.log('skillMembers');
+    return {
+        restrict: 'E',
+        templateUrl: 'modules/skills/views/member.html',
+    }
 }
